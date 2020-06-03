@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: felx;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px 40px;
+    margin-top: -50px;
+}
+
+.intro {
+    margin-top: 10%;
+}
+
+a:link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.about {
+    display: flex;
+    list-style: none;
+    margin-top: 20%;
+    justify-content: space-evenly;
+}
+
+.about a:hover {
+    opacity: 0.5;
+}
+
+.container {
+    text-align: center;
+}
